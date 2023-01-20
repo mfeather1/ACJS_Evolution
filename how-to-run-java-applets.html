@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=790" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="images/general.css" type="text/css" />
+
+<title>How to run java applets (how to get them to work)</title>
+	
+</head>
+
+<body class="google-mobil">
+<!-- wrap starts here -->
+<div id="wraphl">
+		
+	
+	  
+	  <!--header -->
+	<div id="header">			
+				
+		<span id="logo-text"><a href="https://hlavolam.maweb.eu/">hlavolam má web</a></span>		
+		<p id="slogan"><a href="https://hlavolam.maweb.eu/">nejen o skládání kombinatorických hlavolamů</a></p>	
+        <div id="logo1"></div>
+         <div id="logo2"></div>
+          <div id="logo3"></div>
+           <div id="logo4"></div>
+            <div id="logo5"></div>	
+			
+		<div id="header-links">
+			<p>
+			<a href="https://hlavolam.maweb.eu/contact">Contact</a>	
+			</p>		
+		</div>	
+        
+						
+	</div>
+		
+	<!-- navigation -->	
+	<div  id="menu">
+		<ul>
+			<li><a href="https://hlavolam.maweb.eu#english-version">Home</a></li>
+			<li><a href="https://hlavolam.maweb.eu/rubiks-cube-3x3x3">3x3x3 Rubik's cube</a></li>
+			<li><a href="https://hlavolam.maweb.eu/rubiks-cube-blindfolded">Rubik's cube - blindfolded solving</a></li>
+			<li><a href="https://hlavolam.maweb.eu/puzzles">Solutions to combinatorial puzzles</a></li>	
+		</ul>
+	</div>					
+			
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">
+		
+		<div id="mainhl">				
+				
+			<h1>How to run java applets (how to get them to work)</h1>
+				
+            
+            <p><br />
+            Have you come across a page that uses interactive java applets, while those didn't display correctly? Then you've hit the jackpot here. We will try to make them visible again by means of a few instructions. 
+It is the only way to get a high-quality content (which means the text without the applets, as well as applets without the text, is just not so good).
+            </p>
+            
+           <p>  
+         If you see a blank space or something similar to the following group of pictures on a page instead of applet, proceed in accordance with the steps mentioned below.
+          </p>
+           
+           <table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java-problemy.jpg" alt="java" width="701" height="487" /><noscript>enable JavaScript</noscript></td>
+        </tr>
+</table> 
+            
+<!--                      
+<p></p> <h2>Step 0: enable JavaScript</h2>	
+
+<p>
+This solution currently works only for 2x2x2 - 5x5x5 Rubik's cubes. However, the trend for animated simulators is to move from java to JavaScript. Therefore you can expect more puzzles / simulators to be converted later.
+</p>
+
+<p>
+All modern web browsers offer the website-users to enable or disable JavaScript (this also applies to the case of mobile devices). Make sure that you have JavaScript enabled in your browser.   
+</p>
+
+<p>
+Good news: that's all you have to do. <b>Java applets are not used on these webpages anymore</b> (because it's an obsolete technology). That's why the text below is being crossed out. You don't need to take it into account. 
+</p>
+
+<p>
+If JavaScript enabling didn't help, you have no choice but to follow the steps below.   
+</p>
+-->
+
+<p></p> <h2>Step 1: install java</h2>	
+
+<p>
+If you haven't done it already, install
+<a href="http://www.java.com/" target="_new">java</a> on your computer.
+While native support of Java in modern browsers has been eliminated for
+security reasons, legacy support is available via "IE Mode" in the
+Edge browser (with regard to security see:
+"<a target=_blank href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-iemode-safer-than-ie">Modern security protection for vulnerable legacy apps</a>").
+Another option is to install and use the IE Tab extension in Chrome.
+</p>   
+
+
+
+<p></p> <h2>Step 2: open Java Control Panel</h2> 
+
+<p>
+<span style="color:#2666c3">Windows operating system</span>
+</p>
+
+<p>
+Press the <b>Start</b> button, open the <b>Control Panel</b> and view by small or large icons. In a newly opened window, click on the item being entitled as <b>Java</b>. You will reach the same result if you click on the Start button, then search "Configure Java" (without quotation marks), then click on found program.
+</p> 
+
+<p>
+<span style="color:#2666c3">Any operating system (tested only for Windows)</span>
+</p>
+
+<p>
+Generally, find a path where you have installed java. It is <b>C:\Program Files\Java</b> by default in Windows, for instance. Next, open the <b>jre</b> folder with some number (it is jre7 at the time of writing of these instructions). Then, open the <b>bin</b> folder and run the <b>javacpl.exe</b> file.   
+</p>
+
+
+<p></p> <h2>Step 3: enable java in your browser</h2>
+
+
+<p>
+Select the tab called <b>Security</b> in the Java Control Panel. If it is not done by default, <b>Enable Java content in the browser</b>. 
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java1.jpg" alt="java" width="551" height="567" /></td>
+        </tr>
+</table> 
+
+<p></p> <h2>Step 4: add security exception</h2>
+
+<p>
+Some protocols (such as http) are automatically considered a security risk in connection with java. 
+Therefore, your browser blocks the applets prior to their running. That being said, add security exceptions only to trusted sites. 
+</p>
+
+<p>
+Click on the <b>Edit Site List</b> button. 
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java2.jpg" alt="java" width="551" height="567" /></td>
+        </tr>
+</table> 
+
+<p>
+Click on the <b>Add</b> button in a newly opened window. 
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java3.jpg" alt="java" width="561" height="375" /></td>
+        </tr>
+</table> 
+
+<p>
+Copy <b>http://www.hlavolam.maweb.eu</b> and paste it to the Location cell, then click on the <b>OK</b> button.
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java4.jpg" alt="java" width="569" height="384" /></td>
+        </tr>
+</table> 
+
+<p>
+To be on the safe side, add also <b>http://hlavolam.maweb.eu</b> - i.e. the same address, just without the initial www. It should work. 
+</p>
+
+<p>
+Perhaps a security alert regarding http protocol will pop-up at you. Go ahead and confirm an addition of security exception for the http://www.hlavolam.maweb.eu pages by clicking on the <b>Continue</b> button. 
+</p>
+ 
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java5.jpg" alt="java" width="536" height="292" /></td>
+        </tr>
+</table>  
+ 
+
+<p>
+Finally, click on the <b>Apply</b> button (if possible) in the Security tab, then click on the <b>OK</b> button. Now you can't go wrong by rebooting your web browser - i.e. by closing all browser-windows.
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java7.jpg" alt="java" width="535" height="565" /></td>
+        </tr>
+</table> 
+
+
+
+<p></p> <h2>Step 5: Enjoy the applets</h2>
+
+<p>
+After restarting the browser, all applets available for a given page should be already displayed. Well, just after making an additional approval - click on the Run button. 
+</p>
+
+<table align="center">
+	<tr><td>
+    	<img class="b-lazy" src="images/placeholder.png" data-src="images/java8.jpg" alt="java" width="636" height="314" /></td>
+        </tr>
+</table> 
+
+<p>
+If only some applets on the page are loaded, try to refresh / reload the page.
+</p>
+
+<p>
+If you followed these instructions, yet the java applets are not running, the problem is somewhere else. In that case, <a href="https://hlavolam.maweb.eu/contact" target="_new">contact me</a> and we will try to solve the problem together.
+</p>
+
+<p>
+One more information to conclude: if you enter the file path to java applets correctly, they will run even if you're off-line. In other words, you don't even need to be connected to the internet (you just have to download needed "source" file in advance) to run the applets. 
+</p>
+
+	  </div>
+				
+	<!-- content-wrap ends here -->	
+	</div>
+					
+	<!--footer starts here-->
+	<div id="footer">
+			
+		<p>
+		<strong><a href="https://hlavolam.maweb.eu#english-version">hlavolam.maweb.eu</a></strong> | <a href="https://hlavolam.maweb.eu/rubiks-cube-3x3x3">3x3x3 Rubik's cube</a> | <a href="https://hlavolam.maweb.eu/rubiks-cube-blindfolded">Rubik's cube - blindfolded solving</a><br /> 
+        <a href="https://hlavolam.maweb.eu/puzzles">Solutions to combinatorial puzzles</a> | <a href="https://hlavolam.maweb.eu#puzzle-related-articles">Puzzle-related articles</a>
+		  
+         		
+   	</p>
+				
+	</div>
+    
+    <!--<div class="Reklama">ADVERTISEMENT:</div>-->
+    <div class="reklama"><endora></div>
+<!-- wrap ends here -->
+</div>
+<script src="images/blazy.js"></script>
+    <script>
+        ;(function() {
+            var bLazy = new Blazy();
+        })();
+    </script>
+</body>
+</html>

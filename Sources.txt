@@ -1,0 +1,58 @@
+                          Cube Simulator Sources  
+
+  Note:
+  Links to source code for simulators at the authors web sites (where
+  available) are included in each section below (see associated zip, tar
+  or java file).  For source that is only available on the Internet Archive
+  web site, copies have been saved in the arch subdirectory (in case it goes
+  missing at IA).
+
+
+  ----------------------------------------------------------------------------
+  Michael Schubart: Rubik's Cube Java Applet
+  ----------------------------------------------------------------------------
+  http://www.schubart.net/rc/net.schubart.rubiks.zip
+  http://www.schubart.net/rc/net.schubart.rubiks.jar
+  Executable: RubiksCubeApplet.class (in jar)
+
+
+  ----------------------------------------------------------------------------
+  Karl Hornell: Rubik Unbound
+  ----------------------------------------------------------------------------
+  http://www.javaonthebrain.com/java/downloads/rubik.tar.gz
+  Executable: rubik.class
+
+
+  ----------------------------------------------------------------------------
+  Lars Petrus: lrubik
+  ----------------------------------------------------------------------------
+  https://web.archive.org/web/20010312232932/http://lar5.com/cubedude/javacube.html
+  https://web.archive.org/web/20031002161832/http://lar5.com/cube/LarsCubeCode.zip
+  Executable: lrubik.class (also uses: CubeMove.class, PlayThread.class)
+
+
+  ----------------------------------------------------------------------------
+  Josef Jelinek: Gloomy Cube
+  ----------------------------------------------------------------------------
+  https://web.archive.org/web/20010609134018/http://cube.misto.cz/_MAIL_/javacube/cube.html
+  https://web.archive.org/web/20010430024143/http://cube.misto.cz/_MAIL_/javacube/Cube.class
+  https://web.archive.org/web/20010430071639/http://cube.misto.cz/_MAIL_/javacube/Cube.java
+  Executable: Cube.class
+
+  ----------------------------------------------------------------------------
+  Lars Petrus: Caesar
+  ----------------------------------------------------------------------------
+  https://web.archive.org/web/20040415045441/http://lar5.com/cube/javacube.html
+  https://web.archive.org/web/20040415051733/http://lar5.com/cube/Caesar_2.0.zip
+  Executable: Caesar.class (in Caesar.jar)
+
+
+  ----------------------------------------------------------------------------
+  Josef Jelinek: AnimCube
+  ----------------------------------------------------------------------------
+  http://software.rubikscube.info/AnimCube/
+  http://software.rubikscube.info/AnimCube/AnimCube.class
+  http://software.rubikscube.info/AnimCube/AnimCube.java
+  Executable: AnimCube.class
+
+

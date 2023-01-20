@@ -1,0 +1,68 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Jelinek's Java Applet for the Rubik's Cube Animation</title></head>
+<body vlink="#112244" text="black" link="#336699" bgcolor="white">
+<font face="Arial">
+
+<table width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody><tr><td bgcolor="white" align="center">
+<!-- <img src="JelineksJavaApplet_files/logo.html"> -->
+</td></tr>
+<tr><td height="1" bgcolor="#E6F4FF"></td></tr>
+<tr><td height="1" bgcolor="#DDEEF8"></td></tr>
+<tr><td height="1" bgcolor="#D6E4F0"></td></tr>
+<tr><td height="3" bgcolor="#CCDDEE"></td></tr>
+<tr><td bgcolor="#CCDDEE" align="center"><font size="+1"><b>Jelinek's Java Applet for Animating the Rubik's Cube</b></font></td></tr>
+<tr><td height="3" bgcolor="#CCDDEE"></td></tr>
+<tr><td height="1" bgcolor="#BBCCDD"></td></tr>
+<tr><td height="1" bgcolor="#AABBCC"></td></tr>
+<tr><td height="1" bgcolor="#99AABB"></td></tr>
+<tr><td height="1" bgcolor="#778899"></td></tr>
+</tbody></table>
+<p align="center"><b>version 3.5b</b></p>
+<p align="center"><b>Created by <a href="mailto:gloom@email.cz">Josef Jelinek</a> 2001-2004</b></p>
+<p align="center">
+<!--
+<applet code="AnimCube.class" archive="AnimCube.jar" width="120" height="140">
+<param name="move" value="{Cube in ...} F U' B L U' {... cube in ...} F2 U2 F U F' {... cube ...} U2 D' B D {... pattern} L2 B2 U">
+<param name="initrevmove" value="#">
+<param name="position" value="LLLDDD">
+<param name="bgcolor" value="FFFFFF">
+<param name="butbgcolor" value="99AACC">
+<param name="demo" value="{AnimCube 3.5}ZZUuZZ{by Josef Jelinek}d'D'UE'D'{}D'E'U">
+<param name="movetext" value="1">
+<param name="metric" value="2">
+<param name="fonttype" value="0">
+</applet>
+</p><br>
+-->
+<table width="100%" cellspacing="0" cellpadding="4" align="center">
+<tbody><tr bgcolor="#CCCCCC"><td><b><i>Controls</i></b></td></tr>
+</tbody></table>
+<p>Controls of this applet are quite intuitive. You can rotate the whole
+ cube as well as separate layers using the mouse. To rotate separate 
+layers use dragging in natural directions with the left mouse button 
+pressed. To rotate the whole cube use the shift button while dragging or
+ the right mouse button or drag from the point outside the cube image. 
+(Sometimes right mouse button dragging can cause problems - not an 
+applet bug.) The possibility to edit the cube can be disabled in a web 
+page. Then only the whole cube rotation is allowed. You can control the 
+animation by the buttons in the button bar. The animation can be 
+immediately set to any position using progress bar (if present) just 
+above the button bar. The browser status bar shows context help about 
+buttons.</p>
+<p>The animation can be applied more times as well as interleaved with 
+direct manipulation to allow a user experiment if he/she wants to. The 
+first button (rewind) always clears the cube to the initial state - 
+resets facelets, position, twisted layers and mirroring. The middle 
+button has two purposes: When the animation is playing it can stop the 
+animation; when the animation is stopped it mirrors the cube view to 
+allow a user to experiment with symmetric positions. The cube can be 
+rotated by mouse even if the animation is started. If you press button 
+in the middle of animated layer twist, the twist is finished immediately
+ and the new requested action is started.</p>
+<br>
+Note:<br>
+The above is an excerpt from the complete AnimCube documentation
+which is <a href=http://software.rubikscube.info/AnimCube>here</a>.
+<br><br>
+<body></html>

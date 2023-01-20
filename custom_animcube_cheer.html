@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+ <title>Customize AnimCube</title>
+ <meta name=viewport content="width=device-width, initial-scale=1">
+ <style>
+  .btn {
+    width:80px;
+    height:30px;
+    padding:0;
+    border:1px solid black;
+    border-radius:15px;
+    background-color:#ffffff;
+    outline:none;
+  } 
+  .btn:active {background-color:#aaaaaa;}
+  .text {
+    margin:0;
+    padding:0;
+    width:400px;
+    height:300px;
+    border:solid black 1px;
+    resize:none;
+    outline:none;
+  }
+ </style>
+ <script src="https://cjrtnc.leaningtech.com/2.3/loader.js"></script>
+ <script>cheerpjInit({enablePreciseAppletArchives:true});</script>
+ <script src=kb.js></script>
+ <script src=rt.js></script>
+</head>
+<body>
+<center>
+<font size=+2>Customize AnimCube</font><br>
+<table border=0>
+ <tr height=6>
+ <tr>
+  <td>
+   <textarea id=text class=text spellcheck=false></textarea>
+   <table align=center>
+    <tr height=5>
+    <tr>
+     <td><button class=btn onclick="newCube()">Apply</button></td>
+     <td width=5>
+     <td><button class=btn onclick="reset()">Reset</button></td>
+     <td width=5>
+     <td><button class=btn onclick="help()">Help</button></td>
+    </tr>
+   </table>
+  </td>
+  <td width=20>
+  <td valign=top>
+   <div id=cube style="width:300px; height:300px;"></div>
+   <table align=center>
+    <tr height=12>
+   </table>
+  </td>
+ </tr>
+</table>
+<br><br>
+<script>
+"use strict";
+var text = document.getElementById('text');
+var a1 = '<applet code="AnimCube.class" width=280 height=300>';
+var a2 = '</applet>';
+reset();
+function newCube() {
+  if (text.value.length > 0) {
+    var cube = document.getElementById('cube');
+    cube.innerHTML = a1 + text.value + a2; 
+  }
+  kb(2, 100, 600);
+  rt(1, 500, 120);
+}
+function reset() {
+  initParam();
+  newCube();
+}
+function help() {
+  window.open('http://software.rubikscube.info/AnimCube');
+}
+function initParam() {
+  text.value = 
+    "<param name=move value=\"F U' B L U' F2 U2 F U F' U2 D' B D L2 B2 U\">" +
+    '\n<param name=bgcolor value=FFFFFF>' +
+    '\n<param name=butbgcolor value=99AACC>';
+}
+</script>
+</center>
+</body>
+</html>
