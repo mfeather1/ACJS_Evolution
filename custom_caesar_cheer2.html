@@ -24,11 +24,9 @@
     outline:none;
   }
  </style>
+ <!-- this version does not use kb.js, rt.js or key.js (for comparison) -->
  <script src="https://cjrtnc.leaningtech.com/2.3/loader.js"></script>
- <script src=key.js></script>
- <script>cheerpjInit({enablePreciseAppletArchives:true,overrideShortcuts:key});</script>
- <script src=kb.js></script>
- <script src=rt.js></script>
+ <script>cheerpjInit({enablePreciseAppletArchives:true});</script>
 </head>
 <body>
 <center>
@@ -75,8 +73,6 @@ function newCube() {
     else
       cube.innerHTML = a1b + text.value + a2; 
   }
-  kb(2, 100, 600);
-  rt(1, 500, 120);
 }
 function reset() {
   initParam();
