@@ -4,6 +4,16 @@ cube area (for desktop browsers).
   n = # cubes on page
   i = interval in milliseconds
   m = max times to run
+
+For a webpage with many cubes, the number can be determined by adding the
+following code to it and then pressing the Go button after the page fully
+loads (after all cubes are displayed).
+
+<button onclick=ff()>Go</button><br><br>
+<script>
+function ff() {
+  console.log(rtCanv.length);
+}
 */ 
 var rtCubes, rtInt, rtMax, rtCount, rtCube, rtMouseDown; 
 var rtApp = document.getElementsByTagName('object');
